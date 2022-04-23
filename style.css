@@ -1,0 +1,78 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace ;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3b0837;
+    height:120px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+header a,h1{
+    color: aliceblue;
+}
+#home_url{
+    margin-left: 10px;
+    font-size: larger;
+    font-style: italic;
+}
+
+#account_url{
+    margin-right: 10px;
+    font-size: larger;
+    font-style: italic;
+}
+#form{
+    margin-left: 10px;
+    
+}
+main{
+    height:105vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+ }
+
+ footer{
+    display: flex;
+    height:100px;
+    position: relative;
+    background-color: #3b0837;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a,p{
+    color: aliceblue;
+}
+#facebook_url{
+margin-left: 10px;
+}
+#email_url{
+    margin-right:10px;
+}
+table {
+    border:1px solid black;
+    display: inline-flex;
+    height: 35vh;
+}
+a{
+    text-decoration: none;
+}
+
+#salary,#salary1,#salary2,#salary3,#salary4,#salary5,#salary6,#salary7{
+    float: right;
+    margin-left: 200px;
+}
+#senior_mid_junior{
+    margin-left: 100px;
+}
+#first_section{
+    display: grid;
+    padding: 10px;
+  grid-template-columns: auto auto auto;
+}
