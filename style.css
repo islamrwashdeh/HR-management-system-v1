@@ -8,10 +8,10 @@ header{
     display:flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #AC7D88;
+    background-color: #3b0837;
     height:120px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 header a,h1{
     color: aliceblue;
@@ -42,11 +42,9 @@ main{
     display: flex;
     height:100px;
     position: relative;
-    background-color:#85586F;
+    background-color: #3b0837;
     justify-content: space-between;
     align-items: center;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 footer a,p{
     color: aliceblue;
@@ -72,4 +70,9 @@ a{
 }
 #senior_mid_junior{
     margin-left: 100px;
+}
+#first_section{
+    display: grid;
+    padding: 10px;
+  grid-template-columns: auto auto auto;
 }
